@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ProSalon main page V1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="style_pro.css">
+<link rel="animation.css" rel="stylesheet">
+<script need="text/javascript" src="jquery-1.11.2.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+$objWindow = $(window);
+	$('div[data-type="background"]').each(function(){
+	var $bgObj = $(this);
+		$(window).scroll(function() {
+			var yPos = -($objWindow.scrollTop() / $bgObj.data('speed'));
+			var coords = '100% '+ yPos + 'px';
+			$bgObj.css({ backgroundPosition: coords });
+		});
+	});
+});
+
+</script>
+</head>
+
+<body>
+
+<div id="global">
+
+	<div class="menu">
+	<div class="menu_up">
+    	<ul>
+        	<li class="logo"><a href="#"><img src="img/logo.png" width="114" height="44" /></a></li>
+            <li class="white"><a href="#">серия против выпадения волос</a><div class="redline"></div></li>
+            <li class="pic"><a href="#"><img src="img/menu_img_1.png" width="55" height="100" /></a></li>
+            <li class="pic"><a href="#"><img src="img/menu_img_2.png" width="54" height="100" /></a></li>
+            <li class="pic"><a href="#"><img src="img/menu_img_3.png" width="47" height="100" /></a></li>
+            <li  class="white"><a href="#">серия для укрепления волос</a><div class="greenline"></div></li>
+            <li class="pic"><a href="#"><img src="img/menu_img_suv_1.png" width="55" height="100" /></a></li>
+            <li class="pic"><a href="#"><img src="img/menu_img_suv_2.png" width="47" height="100" /></a></li>
+            <li class="white1"><a href="#"><img src="img/icon_kupit.png" width="13" height="18" /><br>где купить?</a></li>
+            <li class="white1"><a href="#"><img src="img/icon_question.png" width="20" height="20" /><br>консультация</a></li>
+            <li><table><tr>
+            <td><a href="#"><img src="img/icon_f.png" width="25" height="25" /></a></td>   
+            <td><a href="#"><img src="img/icon_VK.png" width="25" height="25" /></a></td>
+            </tr></table></li>
+        </ul>
+    </div><!--menu_up--></div><div class="clear"></div>
+    
+  <div id="slide1" class="bg_parralax" data-type="background" data-speed="10">
+		<div class="slide1_content">
+        	<p>революционное<br> средство по уходу <br>за волосами</p>
+            <span>PROSALON MED</span> революционное средство по уходу за волосами революционное средство по уходу за волосами
+        </div><!--slide1 content-->
+    </div><!--slide1-->
+    
+   <div id="slide2" class="bg_parralax" data-type="background" data-speed="20">
+    	<div id="paralax_sl2">
+        	<div id="paralax_sl3">
+            <div class="content"><p>почему стоит выбирать<br> Prosalon Med</p>
+            <div class="greenpoint leftside "><div class="pic1"><p>быстрое действие</p><span>Lorem Ipsum - це текст-"риба",</span> що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною.</div>
+            <div class="pic2 rightside"><p>натуральные ингридиенты</p><span>Lorem Ipsum - це текст-"риба",</span> що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною.</div>
+            <div class="pic3 leftside"><p>лечебный эффект</p><span>Lorem Ipsum - це текст-"риба",</span> що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. </div></p>
+            </div><!--content-->
+            </div><!--paralax3-->
+        </div><!--paralax2-->
+    </div> <!--slide2-->
+    
+    
+    <div id="slide3" class="bg_parralax" data-type="background" data-speed="40">
+    	<div id="slide3_1">
+        	<div id="slide3_2">
+            	<div id="slide3_3">
+               <div class="right_tov_main"> <div class="tov_descr">
+                	<p>prosalon med серия против выпадени волос</p>
+                    Средства будут эффективны при наиболее распространенных причинах выпадения волос:
+                    <ul>
+                    	<li>Lorem Ipsum - це текст-"риба",</li>
+                        <li>Lorem Ipsum - це текст-"риба",</li>
+                        <li>Lorem Ipsum - це текст-"риба",</li>
+                        <li>Lorem Ipsum - це текст-"риба",</li>
+                    </ul>
+                    <form action="" method="get"><input name="" type="button" value="перейти к продукту" /></form>
+                </div>
+                </div>
+                </div><!--slide 3_3-->
+            </div><!--slide3_2-->
+        </div><!--slide3_1-->
+    </div> <!--slide3-->
+    
+    
+    <div id="ask_doc" class="bg_parralax" data-type="background" data-speed="80">
+    	<div class="ask_center">
+       	  <p class="frst">Задайте вопрос доктору</p>
+            <div class="doc_photo">
+            <img src="img/slider5_photo-doctor.png" width="135" height="135" /> 
+            <p class="scnd">Валентина Тернавская</p>
+            <p><span>Сертифицированный</span>дерматолог,<br> член Ассоциации дерматологов Украины</p>
+            
+            <form action="" method="get">
+            	<input name="" type="text" placeholder="Имя"/>
+                <input name="" type="text" placeholder="e-mail"/>
+                <textarea name="" cols="1" rows="10" placeholder="Ваш вопрос"></textarea>
+                <input name="" class="btn" type="button" value="Отправить" />
+            </form>
+            </div><!--photo-->
+        </div> <!--ask center-->
+    </div><!--ask doc-->
+    
+    
+    <div class="footer_gr">
+    	<div class="foot_980">
+        </div>
+    </div> <!--footer_gr-->
+    
+    <div class="footer_bl">
+    	<div class="foot_bl_980"> (c)2015 prosalon med. all right reserved
+        </div>
+    </div><!-- footer_bl-->
+    
+</div><!--global-->
+
+</body>
+</html>
